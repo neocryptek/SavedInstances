@@ -423,6 +423,14 @@ Module.TrackedQuest = {
     resetFunc = KeepProgress,
     relatedQuest = {66042},
   },
+  -- Shaping Fate
+  {
+    name = L["Shaping Fate"],
+    weekly = true,
+    quest = 63949,
+    resetFunc = KeepProgress,
+    relatedQuest = {63949},
+  },
 }
 
 function Module:OnEnable()
